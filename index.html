@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <!--menu header-->
+        <div class="layar-dalam">
+            <div class="logo">
+                <img src="./asset/logo-white.png" class="putih">
+                <img src="./asset/logo-black.png" class="hitam">
+            </div>
+            <div class="menu">
+                <a href="#" class="tombol-menu">
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                </a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Destinasi">Destinasi</a></li>
+                    <li><a href="#Aboutus">About us</a></li>
+                    <li><a href="#formulir">formulir</a></li>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#call">Call us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--video header-->
+    <div class="layar-penuh">
+        <header id="home">
+            <div class="overlay"></div>
+            <video autoplay muted loop>
+                <source src="./asset/travel.indonesia.mp4" type="video/mp4" />
+            </video>
+            <div class="intro">
+                <h3>Visit Indonesia</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. sequi,officils ?
+                </p>
+                <p>
+                    <a href="#Aboutus" class="tombol" >MORE INFO</a>
+                </p>
+            </div>
+        </header>
+        <!--about us-->
+        <main>
+            <section id="Aboutus">
+                <div class="layar-dalam">
+                    <h3>About us</h3>
+                    <p class="ringkasan">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, deleniti!
+                    </p>
+                    <div class="konten-isi">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat odit dignissimos maiores?<br>Possimus a laborum, enim provident hic voluptatem sed?
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--form dan banner autoslide-->
+            <section class="content" id="formulir">
+                <div class="Artikel">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="asset/bali.jpeg"style="width: 350px; height: 180px;">
+                          <div class="cap">Destination one</div>
+                        </div>
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="asset/bangka.jpg" style="width: 350px; height: 180px;">
+                          <div class="cap">Destination Two</div>
+                        </div>
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="asset/pesona.jpeg" style="width: 350px; height: 180px;">
+                          <div class="cap">Destination Three</div>
+                        </div>
+                    </div>
+                        <br>
+                        <div class="gambar">
+                          <span class="dot"></span> 
+                          <span class="dot"></span> 
+                          <span class="dot"></span> 
+                        </div>
+                    <p><i>"Liburan jadi menyenangkan bersama Travel <br>Agentku."</i></p>
+                    <div class="profile">
+                        <div class="ring"></div>
+                        <p><b>Florence Hughes</b><br>Ibu Rumah Tangga, 28</p>
+                    </div>
+                    <hr color=" #e5e4e2"/><br>
+                    <div class="isi-artikel">
+                        <h4>Use this space to provide users with more information<br>
+                            about your offer. Consider it a follow-up to your <br>
+                            headline and explain the benefits of your service 
+                            <br>or product</h4>
+                    </div>
+                        <div class="isi"><div class="number"></div>Your first feature, written in the form of a <br>benefit statement.</div>
+                        <div class="isi"><div class="number"></div>Your second feature, written in the form<br> of a benefit statement.</div>
+                        <div class="isi"><div class="number"></div>Your third feature written, in the form of <br> a benefit statement.</div>
+                </div>
+                <div class="form">
+                    <form id="form" action="/">
+                        <h2>Contact Us <i class="fa-solid fa-headset"></i></h2>
+                        <p>Sales akan menghubungi anda 1x24<br>Jam setelah data kami terima</p>
+                        <div class="input-control">
+                            <label for="username">Username</label>
+                            <input id="username" name="username" type="text">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="text">
+                            <div class="error"></div>
+                        </div>
+                        <h4><b>What are you interested in?</b></h4>
+                        <div class="error"></div>
+                        <select class="select" required>
+                            <option>Transportasi</option>
+                            <option>Villa</option>
+                            <option>Hotel</option>
+                            <option>Destinasi</option>
+                        </select>
+                        <div class="row">
+                            <input type="submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!--support-->
+            <section class="abuabu" id="support">
+                <div class="layar-dalam support">
+                    <div>
+                        <img src="asset/matahari.png">
+                        <h6>In Every Condition</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Enim optio quisquam, ipsum aspernatur tempora asperiores.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="asset/tas.png">
+                        <h6>Provesional Team</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Enim optio quisquam, ipsum aspernatur tempora asperiores.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="asset/kompas.png">
+                        <h6>Expert Hikers</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Enim optio quisquam, ipsum aspernatur tempora asperiores.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--destinasi perjalanan-->
+            <h3 class="h3" id="Destinasi">Our Package</h3>
+            <section id="Destinasi">
+                <div><img src="asset/foto1.jpg"></div>
+                <div><img src="asset/foto2.jpg"></div>
+                <div><img src="asset/foto3.jpg"></div>
+                <div><img src="asset/foto4.jpg"></div>
+                <div><img src="asset/foto5.jpg"></div>
+                <div><img src="asset/foto6.jpg"></div>
+                <div><img src="asset/foto7.jpg"></div>
+                <div><img src="asset/foto8.jpg"></div>
+            </section>
+            <section id="Destinasi">
+                <div><img src="asset/foto8.jpg"></div>
+                <div><img src="asset/foto4.jpg"></div>
+                <div><img src="asset/blog2.jpg"></div>
+                <div><img src="asset/laut.jpeg"></div>
+                <div><img src="asset/foto3.jpg"></div>
+                <div><img src="asset/pulau.jpeg"></div>
+                <div><img src="asset/pesona.jpeg"></div>
+                <div><img src="asset/raibow garden.jpg"></div>
+            </section>
+            <!--question-->
+            <section class="quote">
+                <div class="layar-dalam">
+                    <p>
+                        Jogja terbuat dari rindu, pulang dan angkringan
+                    </p>
+                </div>
+            </section>
+            <!--call us-->
+            <section class="footer" id="call">
+                <h1 class="h1">Argument Headline</h1>
+                <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed<br>justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla, </p>
+                <div class="row-button">
+                    <button class="button"><b>Call us me</b></button>
+                </div>
+            </section>
+            <!--footer-->
+            <footer class="bawah">
+                <h2>TRAVELY</h2>
+                <p>Terms of Service Privacy Policy <br>© 2019 Travely</p>
+            </footer>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
